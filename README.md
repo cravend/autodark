@@ -1,15 +1,20 @@
 # Autodark Plugin for Oh My Zsh
 
 This plugin can be used to automatically switch between light and dark mode. It
-runs [base16-shell](https://github.com/chriskempson/base16-shell) (by default,
-`tomorrow` and `tomorrow-night-eighties`).
+relies on the themes from
+[base16-shell](https://github.com/chriskempson/base16-shell).
 
 ## Installation
 
-Just clone this repo into your Oh My Zsh `custom/plugins` folder, and add it to
-your `.zshrc`:
+Just clone this repo into your Oh My Zsh `custom/plugins` folder. Then, define
+your light + dark themes (and import the plugin).
 
 ```
+AUTODARK_LIGHT_THEME=tomorrow
+AUTODARK_DARK_THEME=tomorrow-night-eighties
+
+...
+
 plugins=(<...other> autodark)
 ```
 
