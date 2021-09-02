@@ -4,6 +4,11 @@ This plugin can be used to automatically switch between light and dark mode. It
 relies on the themes from
 [base16-shell](https://github.com/chriskempson/base16-shell).
 
+## Screenshots
+
+![Autodark light mode](./assets/light.png)
+![Autodark dark mode](./assets/dark.png)
+
 ## Installation
 
 Just clone this repo into your Oh My Zsh `custom/plugins` folder. Then, define
@@ -22,4 +27,3 @@ plugins=(<...other> autodark)
 
 - [ ] Make the command customizable
 - [ ] Write scripts for bash, fish, etc
-
